@@ -1,0 +1,56 @@
+.navigation{
+    text-align: left;
+    text-decoration: none;
+    font-family: Impact, sans-serif;
+    display: grid;
+    width: 20%;
+    border-right: 3px solid rgb(28, 28, 47);
+    border-left: 3px solid rgb(28, 28, 47);
+    text-indent: 3px;
+    padding-left: 5px;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    line-height: 16px;
+    /* make the .navigation be at minimum and maximum width*/
+    min-width: 100%;
+    max-width: 100%;
+
+}
+#main-doc{
+   position: absolute;
+   height: 100%;
+   width: 73%;
+   top: 0;right: 0;
+   left: 25%; 
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+.reference{
+    text-decoration: solid;
+    color: blue;
+}
+.header{
+    border-bottom: 4px double black;
+    padding-bottom: 30px;
+    width: 100%;
+}
+#intro, #faqs, #js, #hw, #var, #d-var, #var-sc, #var-gl, #con, #dt, #ies, #ws, #fd, #ref{
+    border-bottom:2.5px solid black;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+/* Insert atleast one @media query*/
+@media screen and (max-width: 1000px){
+    #main-doc{
+        width: 100%;
+        left: 0;
+    }
+    .navigation{
+        width: 100%;
+        left: 0;
+    }
+}

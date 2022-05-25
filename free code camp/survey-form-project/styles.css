@@ -1,0 +1,66 @@
+  
+body{
+	width: 100%;
+    height: 100vh;
+    background-color: #088f8f;
+}
+h1, p{
+	text-align: center;
+	font-family: Tahoma;
+	color: #1b1b32;
+}
+p{
+	font-size: 20px;
+	font-style: italic;
+}
+label{
+	display: block;
+	margin: 0.5 rem auto;
+	margin: 1em 1em 1em 1em;
+}
+input, select{
+	width: 100%;
+	margin: 10px 0 0 0;
+	height: 2.5em;
+	border-radius: 2%;
+	border: 3px solid #0a0a;
+}
+form{
+	opacity: 0.9;
+	color: #f5f6f7;
+    font-family: Tahoma;
+      font-size: 18px;
+	align-content: center;
+	width: 90vw;
+	background-color: #1b1b32;
+      max-width: 800px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 1em;
+    border-radius: 1%;
+    padding-top: 0.5em;
+    padding: 0.1em;
+    margin-bottom: 2px;
+
+}
+.inline{
+	width: unset;
+	margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    }
+.comment{
+	width: 95%;
+	border-radius: 2%;
+	border: 3px solid #0a0a;
+	margin: 1em 1em 1em 1em;
+}
+.submit{
+	display: block;
+    width: 95%;
+    margin: 1em auto;
+    height: 2.5em;
+    font-size: 1.1rem;
+    background-color: #0a0a;
+    border-color: white;
+    min-width: 300px;
+}
