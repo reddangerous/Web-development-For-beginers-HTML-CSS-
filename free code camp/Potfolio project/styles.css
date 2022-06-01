@@ -1,0 +1,164 @@
+#navbar{
+  background-color: grey;
+  text-align: right;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  
+
+}
+.nav-link{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+  padding-top: 50px;
+  top: 50px;
+  bottom: 30px;
+  
+}
+#navbar a:hover{
+  color: white;
+}
+#welcome-section{
+  background-color: #13ed7c;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  top: 30px;
+  /*align all of this content in the center*/
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+h1{
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+p{
+  font-size: 24px;
+  font-style: italic;
+}
+#projects{
+  background-color: blueviolet;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+ .past{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  margin: 0;
+}
+.images img{
+  width: 350px;
+  height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.images a{
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+
+}
+.images a:hover{
+  color: black;
+}
+button{
+  display: flex;
+  background-color: chartreuse;
+  width: 200px;
+  height: 50px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+button:hover{
+  background-color: red;
+}
+.button a{
+  text-decoration: none;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+}
+#contacts{
+  background-color: #13ed7c;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+}
+i{
+  font-size: 24px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+#contacts a{
+  color: white;
+}
+#contacts i:hover{
+  color: white;
+}
+@media screen and (max-width: 600px){
+  .images img{
+    width: 300px;
+    height: 250px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .past{
+    flex-direction: column;
+  }
+  .images img{
+    width: 250px;
+    height: 200px;
+  }
+  .images a{
+    font-size: 18px;
+  }
+  button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .button{
+    bottom: 0;
+  }
+}
+
